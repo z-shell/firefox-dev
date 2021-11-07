@@ -1,33 +1,33 @@
 {
-  "_from": "firefox-dev@^77.0.1",
-  "_id": "zsh-firefox-dev@77.0.1",
+  "_from": "firefox-dev@^95.0b4",
+  "_id": "zsh-firefox-dev@95.0b4",
   "_inBundle": false,
   "_location": "/zsh-firefox-dev",
   "_phantomChildren": {},
   "_requested": {
     "type": "range",
     "registry": true,
-    "raw": "firefox-dev@^77.0.1",
+    "raw": "firefox-dev@^95.0b4",
     "name": "firefox-dev",
     "escapedName": "firefox-dev",
-    "rawSpec": "^77.0.1",
+    "rawSpec": "^95.0b4",
     "saveSpec": null,
-    "fetchSpec": "^77.0.1"
+    "fetchSpec": "^95.0b4"
   },
   "_requiredBy": [],
-  "_spec": "firefox-dev@^77.0.1",
+  "_spec": "firefox-dev@^95.0b4",
   "_where": "/root/github2/pkg-firefox-dev",
   "author": "Mozilla Foundation",
   "bugs": {
     "url": "https://bugzilla.mozilla.org/"
   },
-  "version": "1.18.2",
+  "version": "95.0b4",
   "contributors": [],
   "dependencies": {},
   "deprecated": false,
   "description": "Automatic privacy is here. Download Firefox to block over 2000 trackers.",
   "devDependencies": {},
-  "homepage": "https://github.com/aws/firefox-dev",
+  "homepage": "https://www.mozilla.org/en-GB/firefox/developer",
   "keywords": [
     "web browser",
     "browser",
