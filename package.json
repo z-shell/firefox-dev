@@ -41,7 +41,7 @@
       "url": "https://download.mozilla.org/?product=firefox-devedition-latest-ssl&os=${${${(M)OSTYPE##linux}:+linux64}:-${${(M)OSTYPE##darwin}:+osx}}&lang=en-US",
       "message": "A snippet providing Firefox Developer Edition."
     },
-    "zplugin-ices": {
+    "zi-ices": {
       "default": {
         "is-snippet": "",
         "lucid": "",
