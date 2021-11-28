@@ -1,6 +1,16 @@
+<<<<<<< HEAD
 | **Package source:** | Source Tarball |      Binary      | Git | Node | Gem |
 | :-----------------: | :------------: | :--------------: | :-: | :--: | :-: |
 |     **Status:**     |       -        | + <br> (default) |  -  |  –   |  –  |
+=======
+# `FIREFOX DEVELOPER EDITION` ZINIT PACKAGE
+
+## Homepage link: [Mozilla Firefox Developer Edition](https://www.mozilla.org/en-US/firefox/developer/)
+
+| **Package source:** | Source Tarball |            Binary            | Git | Node | Gem |
+| :-----------------: | :------------: | :--------------------------: | :-: | :--: | :-: |
+|     **Status:**     |      :x:       | :heavy_check_mark: (default) | :x: | :x:  | :x: |
+>>>>>>> c1426e4 (	new file:   .editorconfig)
 
 - [Introduction](#introduction)
 - [Install](#install)
@@ -17,11 +27,19 @@
 
 The [Mozilla Firefox Developer Edition](https://www.mozilla.org/en-US/firefox/developer/) zsh package than can use the NPM package registry to automatically:
 
+<<<<<<< HEAD
 - get the plugin's Git repository OR release-package URL,
 - get the list of the recommended ices for the plugin,
   - there can be multiple lists of ices,
   - the ice lists are stored in _profiles_; there's at least one profile, _default_,
   - the ices can be selectively overriden.
+=======
+-   get the plugin's Git repository OR release-package URL,
+-   get the list of the recommended ices for the plugin,
+    -   there can be multiple lists of ices,
+    -   the ice lists are stored in _profiles_; there's at least one profile, _default_,
+    -   the ices can be selectively overriden.
+>>>>>>> c1426e4 (	new file:   .editorconfig)
 
 # Install
 
