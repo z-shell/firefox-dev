@@ -8,28 +8,28 @@
 
 - [Introduction](#introduction)
 - [Install](#install)
-	- [Available `pack''` invocations](#available-pack-invocations)
-	- [Default Profile](#default-profile)
-	- [`Bin-Gem-Node` Profile](#bin-gem-node-profile)
+  - [Available `pack''` invocations](#available-pack-invocations)
+  - [Default Profile](#default-profile)
+  - [`Bin-Gem-Node` Profile](#bin-gem-node-profile)
 
-# Introduction
+## Introduction
 
 > **[?]**
 > This repository not compatible with previous versions (zplugin, zinit).
 >
 > Please upgrade to [ZI](https://github.com/z-shell-zi)
 
-The [Mozilla Firefox Developer Edition](https://www.mozilla.org/en-US/firefox/developer/) zsh package than can use the NPM package registry to automatically:
+The [Mozilla Firefox Developer Edition](https://www.mozilla.org/en-US/firefox/developer/) zsh package that can use the NPM package registry to automatically:
 
--   get the plugin's Git repository OR release-package URL,
--   get the list of the recommended ices for the plugin,
-    -   there can be multiple lists of ices,
-    -   the ice lists are stored in _profiles_; there's at least one profile, _default_,
-    -   the ices can be selectively overridden.
+- get the plugin's Git repository OR release-package URL,
+- get the list of the recommended ices for the plugin,
+  - there can be multiple lists of ices,
+  - the ice lists are stored in _profiles_; there's at least one profile, _default_,
+  - the ices can be selectively overridden.
 
-# Install
+## Install
 
-## Available `pack''` invocations
+### Available `pack''` invocations
 
 ```zsh
 # Download the binary of amazon-firefox-dev command
@@ -39,7 +39,7 @@ zi pack for firefox-dev
 zi pack"bgn" for firefox-dev
 ```
 
-## Default Profile
+### Default Profile
 
 Provides the CLI commands `firefox-bin` and `firefox` by extending the `$PATH`
 to point to the snippet's directory.
@@ -54,7 +54,7 @@ zi id-as"firefox-dev" as"command" lucid" \
         "https://download.mozilla.org/?product=firefox-devedition-latest-ssl&os=${${${(M)OSTYPE##linux}:+linux64}:-${${(M)OSTYPE##darwin}:+osx}}&lang=en-US"
 ```
 
-## `Bin-Gem-Node` Profile
+### `Bin-Gem-Node` Profile
 
 Provides the CLI command `firefox` by creating a forwarder script (a _shim_) to
 the `firefox-bin` command, in `$ZPFX/bin` by using the
