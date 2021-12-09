@@ -1,21 +1,21 @@
 {
-  "_from": "firefox-dev@^95.0b4",
-  "_id": "zsh-firefox-dev@95.0b4",
+  "_from": "firefox-dev@^96.0b2",
+  "_id": "zsh-firefox-dev@96.0b2",
   "_inBundle": false,
   "_location": "/zsh-firefox-dev",
   "_phantomChildren": {},
   "_requested": {
     "type": "range",
     "registry": true,
-    "raw": "firefox-dev@^95.0b4",
+    "raw": "firefox-dev@^96.0b2",
     "name": "firefox-dev",
     "escapedName": "firefox-dev",
-    "rawSpec": "^95.0b4",
+    "rawSpec": "^96.0b2",
     "saveSpec": null,
-    "fetchSpec": "^95.0b4"
+    "fetchSpec": "^96.0b2"
   },
   "_requiredBy": [],
-  "_spec": "firefox-dev@^95.0b4",
+  "_spec": "firefox-dev@^96.0b2",
   "_where": "/root/github2/pkg-firefox-dev",
   "author": "Mozilla Foundation",
   "bugs": {
