@@ -1,5 +1,12 @@
-<h3>
+<h2 align="center">
+  <a href="https://github.com/z-shell/zi">
+    <img src="https://github.com/z-shell/zi/raw/main/docs/images/logo.svg" alt="Logo" width="80" height="80">
+  </a>
+❮ ZI ❯ Package - Firefox Developer Edition
+</h2>
 
+<h3 align="center">
+  
 | **Package source:** | Source Tarball |            Binary            | Git | Node | Gem |
 | :-----------------: | :------------: | :--------------------------: | :-: | :--: | :-: |
 |     **Status:**     |      :x:       | :heavy_check_mark: (default) | :x: | :x:  | :x: |
@@ -14,10 +21,7 @@
 
 ## Introduction
 
-> **[?]**
-> This repository not compatible with previous versions (zplugin, zinit).
->
-> Please upgrade to [ZI](https://github.com/z-shell-zi)
+> This repository compatible with [ZI](https://github.com/z-shell-zi)
 
 The [Mozilla Firefox Developer Edition](https://www.mozilla.org/en-US/firefox/developer/) zsh package that can use the NPM package registry to automatically:
 
@@ -49,7 +53,7 @@ The ZI command executed will be equivalent to:
 ```zsh
 zi id-as"firefox-dev" as"command" lucid" \
     atclone'local ext="${${${(M)OSTYPE#linux*}:+tar.bz2}:-dmg}"; \
-        zpextract %ID% $ext --norm ${${OSTYPE:#darwin*}:+--move}'
+        ziextract %ID% $ext --norm ${${OSTYPE:#darwin*}:+--move}'
     pick"firefox(|-bin)" atpull"%atclone" nocompile is-snippet for \
         "https://download.mozilla.org/?product=firefox-devedition-latest-ssl&os=${${${(M)OSTYPE##linux}:+linux64}:-${${(M)OSTYPE##darwin}:+osx}}&lang=en-US"
 ```
@@ -66,7 +70,7 @@ The ZI command executed will be equivalent to:
 ```zsh
 zi id-as"firefox-dev" as"null" lucid \
     atclone'local ext="${${${(M)OSTYPE#linux*}:+tar.bz2}:-dmg}"; \
-        zpextract %ID% $ext --norm ${${OSTYPE:#darwin*}:+--move}'
+        ziextract %ID% $ext --norm ${${OSTYPE:#darwin*}:+--move}'
     atpull"%atclone" nocompile is-snippet for \
         "https://download.mozilla.org/?product=firefox-devedition-latest-ssl&os=${${${(M)OSTYPE##linux}:+linux64}:-${${(M)OSTYPE##darwin}:+osx}}&lang=en-US"
 ```
