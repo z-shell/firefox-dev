@@ -1,6 +1,6 @@
 <h2 align="center">
   <a href="https://github.com/z-shell/zi">
-    <img src="https://github.com/z-shell/zi/raw/main/docs/images/logo.svg" alt="Logo" width="80" height="80">
+    <img src="https://github.com/z-shell/zi/raw/main/docs/images/logo.svg" alt="Logo" width="80" height="80" />
   </a>
 ❮ ZI ❯ Package - Firefox Developer Edition
 </h2>
@@ -13,15 +13,11 @@
 
 </h3>
 
-- [Introduction](#introduction)
-- [Install](#install)
-  - [Available `pack''` invocations](#available-pack-invocations)
-  - [Default Profile](#default-profile)
-  - [`Bin-Gem-Node` Profile](#bin-gem-node-profile)
+- [Available `pack''` invocations](#available-pack-invocations)
+- [Default Profile](#default-profile)
+- [`Bin-Gem-Node` Profile](#bin-gem-node-profile)
 
-## Introduction
-
-> This repository compatible with [ZI](https://github.com/z-shell-zi)
+> This repository compatible with [ZI](https://github.com/z-shell/zi)
 
 The [Mozilla Firefox Developer Edition](https://www.mozilla.org/en-US/firefox/developer/) zsh package that can use the NPM package registry to automatically:
 
@@ -30,8 +26,6 @@ The [Mozilla Firefox Developer Edition](https://www.mozilla.org/en-US/firefox/de
   - there can be multiple lists of ices,
   - the ice lists are stored in _profiles_; there's at least one profile, _default_,
   - the ices can be selectively overridden.
-
-## Install
 
 ### Available `pack''` invocations
 
