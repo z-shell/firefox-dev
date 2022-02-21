@@ -4,7 +4,7 @@
   "homepage": "https://www.mozilla.org/en-GB/firefox/developer",
   "license": "Mozilla Public License",
   "name": "zsh-firefox-dev",
-  "version": "98.0b3",
+  "version": "rolling",
   "contributors": [],
   "dependencies": {},
   "deprecated": false,
