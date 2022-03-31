@@ -1,9 +1,13 @@
-<h2 align="center">
-  <a href="https://github.com/z-shell/zi">
-    <img src="https://github.com/z-shell/zi/raw/main/docs/images/logo.svg" alt="Logo" width="80" height="80" />
-  </a>
-❮ ZI ❯ Package - Firefox Developer Edition
-</h2>
+
+<div align="center"><table style="width:100%;height:auto">
+<tr><td align="center">
+<a title="ZI" target="_self" href="https://github.com/z-shell/zi/">
+<h2><img align="center" style="width:60px;height:auto" src="https://github.com/z-shell/zi/raw/main/docs/images/logo.svg" alt="ZI Logo" /></a>
+❮ ZI ❯ Package - Firefox Developer Edition </h2><h3> # Download & Install the latest binary of Mozilla Firefox Dev </h3>
+</td></tr>
+<tr><td align="center"><h3>
+
+
 
 <h3 align="center">
   
@@ -12,25 +16,13 @@
 |     **Status:**     |      :x:       | :heavy_check_mark: (default) | :x: | :x:  | :x: |
 
 </h3>
-
-- [Available `pack''` invocations](#available-pack-invocations)
-- [Default Profile](#default-profile)
-- [`Bin-Gem-Node` Profile](#bin-gem-node-profile)
-
-> This repository compatible with [ZI](https://github.com/z-shell/zi)
-
-The [Mozilla Firefox Developer Edition](https://www.mozilla.org/en-US/firefox/developer/) zsh package that can use the NPM package registry to automatically:
-
-- get the plugin's Git repository OR release-package URL,
-- get the list of the recommended ices for the plugin,
-  - there can be multiple lists of ices,
-  - the ice lists are stored in _profiles_; there's at least one profile, _default_,
-  - the ices can be selectively overridden.
+  <img style="width:90%;height:auto" 
+       src="https://user-images.githubusercontent.com/59910950/161095968-8f10a351-9fc1-412a-903c-b3eeed601c71.gif" alt="Preview" />
+</td></tr></table></div>
 
 ### Available `pack''` invocations
 
 ```zsh
-# Download the binary of amazon-firefox-dev command
 zi pack for firefox-dev
 
 # Download the firefox-dev binary with use of the bin-gem-node annex
@@ -68,3 +60,14 @@ zi id-as"firefox-dev" as"null" lucid \
     atpull"%atclone" nocompile is-snippet for \
         "https://download.mozilla.org/?product=firefox-devedition-latest-ssl&os=${${${(M)OSTYPE##linux}:+linux64}:-${${(M)OSTYPE##darwin}:+osx}}&lang=en-US"
 ```
+ ---
+ 
+> This repository compatible with [ZI](https://github.com/z-shell/zi)
+
+The [Mozilla Firefox Developer Edition](https://www.mozilla.org/en-US/firefox/developer/) zsh package that can use the NPM package registry to automatically:
+
+- get the plugin's Git repository OR release-package URL,
+- get the list of the recommended ices for the plugin,
+  - there can be multiple lists of ices,
+  - the ice lists are stored in _profiles_; there's at least one profile, _default_,
+  - the ices can be selectively overridden.
