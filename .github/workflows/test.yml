@@ -17,5 +17,5 @@ jobs:
           registry: ghcr.io
           username: ${{ github.repository_owner }}
           password: ${{ secrets.GITHUB_TOKEN }}
-          image: zd:latest
+          image: ghcr.io/z-shell/zd:latest
           run: zi pack for firfox-dev
