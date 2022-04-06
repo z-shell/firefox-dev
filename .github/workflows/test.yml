@@ -9,6 +9,6 @@ on:
 
 jobs:
   build:
-    runs-on: ghcr.io/z-shell/zd:latest
+    container: ghcr.io/z-shell/zd:latest
     steps:
       - run: zi pack for firfox-dev
