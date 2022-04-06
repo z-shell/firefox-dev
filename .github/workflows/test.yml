@@ -9,8 +9,4 @@ on:
 
 jobs:
   build:
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v3
-      - uses: docker://ghcr.io/z-shell/zd:latest
-      - run: zi pack for firfox-dev
+    container: ghcr.io/z-shell/zd:latest
