@@ -17,5 +17,7 @@ jobs:
       - name: Run a multi-line script
         run: |
           sudo apt-get update; sudo apt-get install zsh
-        shell: zsh {0}
       - run: sh -c "$(curl -fsSL https://raw.githubusercontent.com/z-shell/zi-src/main/lib/sh/install.sh)" -- -i skip
+      - run: |
+          zi pack for firfox-dev
+        shell: zsh {0}
