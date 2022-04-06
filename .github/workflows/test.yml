@@ -12,10 +12,5 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
-      - uses: addnab/docker-run-action@v3
-        with:
-          registry: ghcr.io
-          username: ${{ github.repository_owner }}
-          password: ${{ secrets.GITHUB_TOKEN }}
-          image: ghcr.io/z-shell/zd:latest
-          run: zi pack for firfox-dev
+      - uses: docker://ghcr.io/z-shell/zd:latest
+      - run: zi pack for firfox-dev
