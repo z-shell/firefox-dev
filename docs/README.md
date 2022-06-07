@@ -1,18 +1,18 @@
 <div align="center"><table><tr><td>
-  <a target="_self" href="https://github.com/z-shell/zi/">
-  <h1><img align="center" src="https://github.com/z-shell/zi/raw/main/docs/images/logo.svg" width="60px" height="60px" alt="ZI Logo" /></a>
-  ❮ ZI ❯ Package - Firefox Developer Edition </h1>
-<h2 align="center">
+  <h1><a target="_self" href="https://github.com/z-shell/zi/">
+  <img align="center" src="https://github.com/z-shell/zi/raw/main/docs/images/logo.svg" width="60px" height="60px" alt="ZI Logo" /></a>
+    ❮ ZI ❯ Package - Firefox Developer Edition </h1>
+  <h2 align="center">
+  <p> Install and setup the latest binary of Mozilla Firefox Deveveloper Edition </p>
+</h2>
+<h3 align="center">
 
 | **Package source:** | Source Tarball |            Binary            | Git | Node | Gem |
 | :-----------------: | :------------: | :--------------------------: | :-: | :--: | :-: |
 |     **Status:**     |      :x:       | :heavy_check_mark: (default) | :x: | :x:  | :x: |
 
-</h2>
-  <h3 align="center">
-  <p> Install and setup the latest binary of Mozilla Firefox Deveveloper Edition </p>
+</h3>
   <p><img align="center" src="https://user-images.githubusercontent.com/59910950/161095968-8f10a351-9fc1-412a-903c-b3eeed601c71.gif" width="100%" height="auto" alt="zi package firefox-dev" /></p>
-  </h3>
 </td></tr></table></div><hr />
 
 ### Available `pack''` invocations
